@@ -5,7 +5,7 @@ function controlarMusica(texto){
         Audio.play()
     }else if (texto.includes("pausar")){
         Audio.pause()
-    }
+    } 
 }
 function repetirTexto(texto){
     const letra = texto
